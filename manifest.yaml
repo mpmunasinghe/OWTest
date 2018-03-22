@@ -5,11 +5,11 @@
 #   Action:   openwhisk-helloworld/helloworld.js
 
 packages:
-  $PACKAGE_NAME:
+  samplepackage:
     version: 1.0
     license: Apache-2.0
     namespace: _
     actions:
-      helloworld:
+      remote:
         function: actions/remote.js
         runtime: nodejs:6
