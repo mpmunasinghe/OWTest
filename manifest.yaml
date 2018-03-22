@@ -5,7 +5,7 @@
 #   Action:   openwhisk-helloworld/helloworld.js
 
 packages:
-  samplepackage:
+  testpackage:
     version: 1.0
     license: Apache-2.0
     namespace: _
