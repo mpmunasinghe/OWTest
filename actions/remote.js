@@ -13,10 +13,7 @@
   *
   */
 function main(params) {
-  if (params.name) {
-    return { greeting: `Hello ${params.name}` };
-  }
-  return { greeting: 'Hello stranger!' };
+    return { gitUrl : "https://github.com/" + params.username + "/" + params.repository, manifestPath : "." };
 }
 
 exports.main = main;
