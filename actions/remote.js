@@ -13,7 +13,7 @@
   *
   */
 function main(params) {
-    return { gitUrl : "https://github.com/" + params.username + "/" + params.repository, manifestPath : "." };
+    return { gitUrl : "https://github.com/" + params.username + "/" + params.repository, manifestPath : ".", update: "update success" };
 }
 
 exports.main = main;
