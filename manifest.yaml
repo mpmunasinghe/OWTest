@@ -20,4 +20,4 @@ packages:
     actions:
       newpackageaction:
         function: actions/remote.js
-        runtime: nodejs:6        
+        runtime: nodejs:6
